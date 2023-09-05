@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     background-color: #FFFFFF;
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .main-content {
@@ -101,6 +101,9 @@ color: #595959;
 .project-link {
     margin-left: 10px;
 }
+.project-link:hover {
+    color: #FB6D3A;
+}
 .projekt-breaket {
 font-style: normal;
 font-weight: 700;
@@ -192,10 +195,10 @@ margin-bottom: 10px;
 .Sidebar {
     background-color: #1E2939;
     padding: 15px;
-    width: 370px;
+    width: 230px;
 }
 .photo {
-    width: 370px;
+    width: 230px;
     margin-bottom: 10px;
 }
 .contacts, 
@@ -224,8 +227,16 @@ margin-bottom: 10px;
     align-items: center;
 
 }
+.phone{
+    gap: 5px;
+}
 .soc-icon{
     fill: #FFFFFF;
+}
+.soc-link:hover .soc-icon{
+    fill: #FB6D3A;
+    /* stroke: #FB6D3A;
+    color: #FB6D3A; */
 }
 
 .tech-skills {
