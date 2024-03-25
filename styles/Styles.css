@@ -80,9 +80,9 @@ body {
   line-height: 24px;
   color: #000000;
 }
-.project-item:nth-child(n + 4) {
+/* .project-item:nth-child(n + 4) {
   display: none;
-}
+} */
 
 .project-link {
   font-style: normal;
