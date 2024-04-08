@@ -174,7 +174,6 @@ body {
   padding: 0;
   margin: 0;
   margin-left: 15px;
-  margin-bottom: 20px;
 }
 .work-list-item {
   font-style: normal;
@@ -182,6 +181,15 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
+}
+.achievement{
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  margin: 15px 0;
 }
 /* Education styles */
 .Education {
